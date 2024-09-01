@@ -106,8 +106,3 @@ terraform destroy
 
 - **Subnet Overlap:** If you receive errors related to overlapping CIDR blocks, ensure that \`subnet1cidr\` and \`subnet2cidr\` are unique and within the range of the \`cidr\` block.
 - **Permissions:** Ensure that the AWS credentials used have the necessary permissions to create all the listed resources.
-
-## Contributing
-
-If you wish to contribute to this Terraform configuration, please fork the repository and submit a pull request with your changes.
-
